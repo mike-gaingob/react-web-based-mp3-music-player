@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/react-web-based-mp3-music-player/',
   plugins: [react(), tailwindcss()],
 })

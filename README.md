@@ -1,5 +1,7 @@
 # 🎵 Web-Based Music Player
 
+**[Try the Live Application Here!](https://mike-gaingob.github.io/react-web-based-mp3-music-player/)**
+
 ![Product Showcase 1](./public/product_showcase_img1.webp)
 
 A stunning, responsive, and performant web-based music player built with modern web technologies. This application allows users to upload local MP3 files, organize them into custom playlists, and enjoy a premium playback experience featuring a dynamic full-screen "Now Playing" interface.
@@ -95,5 +97,3 @@ While the current architecture is perfect for a lightweight, in-browser session 
 
 ## 📝 License
 This project is open-source and available under the MIT License.
-react-web-based-mp3-music-player
->>>>>>> ae1c0565be1460ccbeab39319621b028aec3c153

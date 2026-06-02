@@ -68,7 +68,7 @@ const SongItem: React.FC<SongItemProps> = ({
         className={`flex-shrink-0 transition-all duration-200 ${
           isLiked
             ? 'text-emerald-400 opacity-100'
-            : 'text-zinc-600 opacity-0 group-hover:opacity-100 hover:text-white'
+            : 'text-zinc-600 opacity-100 md:opacity-0 md:group-hover:opacity-100 hover:text-white'
         }`}
         aria-label={isLiked ? 'Unlike song' : 'Like song'}
       >
@@ -80,7 +80,7 @@ const SongItem: React.FC<SongItemProps> = ({
         <div className="relative flex-shrink-0">
           <button
             onClick={e => { e.stopPropagation(); setMenuOpen(o => !o); }}
-            className="text-zinc-600 opacity-0 group-hover:opacity-100 hover:text-white transition-all duration-200"
+            className="text-zinc-600 opacity-100 md:opacity-0 md:group-hover:opacity-100 hover:text-white transition-all duration-200"
             aria-label="More options"
           >
             <MoreHorizontal size={compact ? 14 : 16} />
