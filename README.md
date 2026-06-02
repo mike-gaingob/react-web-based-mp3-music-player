@@ -95,3 +95,5 @@ While the current architecture is perfect for a lightweight, in-browser session 
 
 ## 📝 License
 This project is open-source and available under the MIT License.
+react-web-based-mp3-music-player
+>>>>>>> ae1c0565be1460ccbeab39319621b028aec3c153
